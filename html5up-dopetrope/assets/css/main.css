@@ -103,7 +103,7 @@ input, select, textarea {
 		font-weight: 300;
 		color: #5d5d5d;
 		font-size: 14pt;
-		line-height: 1.75em;
+		line-height: 3.75em;
 	}
 
 	strong, b {
@@ -154,6 +154,7 @@ input, select, textarea {
 	a {
 		color: #d52349;
 		text-decoration: underline;
+		font-family: 'NanumSquare';
 	}
 
 		a:hover {
@@ -2068,7 +2069,7 @@ input, select, textarea {
 		position: relative;
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
-		padding: 5em 0 4em 0;
+		padding: 2em 0 0em 0;
 		text-align: center;
 	}
 
@@ -2088,6 +2089,7 @@ input, select, textarea {
 
 		#nav > ul {
 			margin: 0;
+			background: linear-gradient(90deg, rgba(0,235,204,1) 0%, rgba(0,162,255,1) 100%);
 		}
 
 			#nav > ul > li {
@@ -2110,6 +2112,9 @@ input, select, textarea {
 					-ms-transition: background-color .25s ease-in-out;
 					transition: background-color .25s ease-in-out;
 					outline: 0;
+					font-weight: 600;
+					font-size: x-large;
+					font-family: 'NanumSquare';
 				}
 
 				#nav > ul > li:hover > a, #nav > ul > li.active > a {
@@ -2117,9 +2122,10 @@ input, select, textarea {
 				}
 
 				#nav > ul > li.current > a {
-					background: #d52349;
-					color: #fff !important;
-					font-weight: 700;
+					color: #5d5d5d !important;
+					font-weight: 600;
+					font-size: x-large;
+					font-family: 'NanumSquare';
 				}
 
 	.dropotron {
@@ -2170,21 +2176,20 @@ input, select, textarea {
 				border-bottom-color: rgba(34, 30, 31, 0.98);
 			}
 
-/* Banner */
+/* 메인 이미지Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/main_back2.jpg");
+		background-image:  url("../../images/main_back1.jpg");
 		background-position: center center;
-		background-size: auto 100%;
+		/*background-size: auto 50%;*/
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
 		padding: 8em 0;
-		margin: 4em 0 0 0;
 	}
 
 		#banner header {
-			background-color: rgba(34, 30, 31, 0.98);
+			/*background-color: rgba(34, 30, 31, 0.98);*/
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
