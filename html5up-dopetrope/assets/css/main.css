@@ -181,7 +181,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
-		width: 70em;
+		/*width: 70em;*/
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -286,7 +286,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 50%;
 		}
 
 		.row > .off-4 {
@@ -2181,7 +2181,7 @@ input, select, textarea {
 	#banner {
 		background-image:  url("../../images/main_back1.jpg");
 		background-position: center center;
-		/*background-size: auto 50%;*/
+		background-size: auto 100%;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
@@ -2909,5 +2909,14 @@ input, select, textarea {
 			#footer {
 				padding: 40px 0 20px 0;
 			}
-
+		/*first*/
+		#first {
+			background-image:  url("../../images/AllSol.jpg");
+			background-position: center center;
+			background-size: auto 100%;
+			background-repeat: no-repeat;
+			text-align: center;
+			position: relative;
+			padding: 8em 0;
+		}
 	}
