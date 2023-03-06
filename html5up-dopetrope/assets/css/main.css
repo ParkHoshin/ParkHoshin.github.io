@@ -2064,7 +2064,10 @@ input, select, textarea {
 	}
 
 /* Header */
+	.mainHeader {
+		padding: 0.5em 0 0em 0 !important;
 
+	}
 	#header {
 		position: relative;
 		background: #ffffff;
@@ -2083,6 +2086,9 @@ input, select, textarea {
 
 /* Nav */
 
+	.mainLogo {
+		margin:0px !important;
+	}
 	#nav {
 		margin: 2.5em 0 0 0;
 	}
@@ -2178,18 +2184,27 @@ input, select, textarea {
 
 /* 메인 이미지Banner */
 
+/*	#banner {
+		background-image:  url("../../images/main_back_1.jpg");
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+		padding: 8em 0;
+	}*/
 	#banner {
-		background-image:  url("../../images/main_back1.jpg");
+		background: #CCE8F4 url("../../images/main_back_1.jpg");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
 		padding: 8em 0;
-	}
+		 margin-bottom: 0em !important;
+}
 
-		#banner header {
-			/*background-color: rgba(34, 30, 31, 0.98);*/
+    #banner header {
+        /*background-color: rgba(34, 30, 31, 0.98);*/
 			display: inline-block;
 			padding: 2.5em 5em;
 			border-radius: 5px;
