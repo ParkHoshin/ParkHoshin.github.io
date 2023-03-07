@@ -2201,7 +2201,7 @@ input, select, textarea {
 		position: relative;
 		padding: 8em 0;
 		 margin-bottom: 0em !important;
-}
+	}
 
     #banner header {
         /*background-color: rgba(34, 30, 31, 0.98);*/
@@ -2224,7 +2224,48 @@ input, select, textarea {
 				margin: 0;
 				font-size: 1.5em;
 			}
+/* image cut*/
+	#first {
+		background: url(../../images/1st.png);
+		background-position: center center;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+		padding: 10em 0 !important;
+		margin-bottom: 0em !important;
+	}
 
+	#second {
+		background: url(../../images/AllSol.jpg);
+		background-position: center center;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+		padding: 9em 0 !important;
+		margin-bottom: 0em !important;
+	}
+	#third {
+		background: url(../../images/manage.jpg);
+		background-position: center center;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+		padding: 13em 0 !important;
+		margin-bottom: 0em !important;
+	}
+	#last {
+		background: url(../../images/main3.png);
+		background-position: center center;
+		background-size: auto 100%;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+		padding: 13em 0 !important;
+		margin-bottom: 0em !important;
+	}
 /* Intro */
 
 	#intro {
@@ -2234,7 +2275,7 @@ input, select, textarea {
 
 		#intro section {
 			margin: 3em 0;
-			padding: 2.5em 0;
+			/*padding: 2.5em 0;*/
 		}
 
 		#intro h2 {
@@ -2925,13 +2966,13 @@ input, select, textarea {
 				padding: 40px 0 20px 0;
 			}
 		/*first*/
-		#first {
-			background-image:  url("../../images/AllSol.jpg");
-			background-position: center center;
-			background-size: auto 100%;
-			background-repeat: no-repeat;
-			text-align: center;
-			position: relative;
-			padding: 8em 0;
-		}
+		/*#first {*/
+		/*	background-image:  url("../../images/AllSol.jpg");*/
+		/*	background-position: center center;*/
+		/*	background-size: auto 100%;*/
+		/*	background-repeat: no-repeat;*/
+		/*	text-align: center;*/
+		/*	position: relative;*/
+		/*	padding: 8em 0;*/
+		/*}*/
 	}
