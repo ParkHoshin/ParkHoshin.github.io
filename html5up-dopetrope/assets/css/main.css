@@ -1549,7 +1549,7 @@ input, select, textarea {
 		header.major {
 			position: relative;
 			text-align: center;
-			border-top: solid 1px #ccc;
+			border-top: solid 1px white;
 			top: 1em;
 			margin: 0 0 3em 0;
 		}
@@ -2327,7 +2327,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #00A2FF;
 		padding: 4em 0 4em 0;
 	}
 
@@ -2344,7 +2344,7 @@ input, select, textarea {
 		}
 
 		#main .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #FFE467;
 		}
 
 /* Footer */
