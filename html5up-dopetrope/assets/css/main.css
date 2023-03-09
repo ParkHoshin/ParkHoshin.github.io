@@ -1570,9 +1570,7 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background: #ffffff;
-		border-bottom: solid 1px #ccc;
-		padding: 2.75em 1.75em 2.75em 1.75em;
+		padding: 3.75em 1.75em 2.75em 1.75em;
 	}
 
 		.box .image.featured {
@@ -2965,14 +2963,5 @@ input, select, textarea {
 			#footer {
 				padding: 40px 0 20px 0;
 			}
-		/*first*/
-		/*#first {*/
-		/*	background-image:  url("../../images/AllSol.jpg");*/
-		/*	background-position: center center;*/
-		/*	background-size: auto 100%;*/
-		/*	background-repeat: no-repeat;*/
-		/*	text-align: center;*/
-		/*	position: relative;*/
-		/*	padding: 8em 0;*/
-		/*}*/
+
 	}
