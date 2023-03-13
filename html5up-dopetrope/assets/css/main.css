@@ -2191,7 +2191,7 @@ input, select, textarea {
 		padding: 8em 0;
 	}*/
 	#banner {
-		background: #CCE8F4 url("../../images/main_back_1.jpg");
+		background:  url("../../images/main_back.png");
 		background-position: center center;
 		background-size: auto 100%;
 		background-repeat: no-repeat;
